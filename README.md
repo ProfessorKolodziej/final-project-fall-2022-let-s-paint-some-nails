@@ -1,14 +1,19 @@
-# Final Project (Replace with your project name)
+# Maggie and Reema's Nail Salon
 
 ## Description
 
-Please add a brief description of your final project here.
+Our final project will be an interactive nail salon where you can choose a character and paint their nails. The nail selection will include short or long, different colors, and stickers. 
+
+Users will also get to choose which character’s nails they want to paint: Maggie, Reema, Justin Bieber, or Brandon Marsh.
 
 ## Project Documentation
 
 - [CM523 Final Project Guidelines &amp; Schedule](https://docs.google.com/document/d/1gvG9_1XYfp5-BVUgCDL9JDaZ3Acm6hHP7lDF3MqXPzY/edit#heading=h.61wsleacz62i)
-- **Final code demo:** [Update this to show your Github Pages URL](https://professorkolodziej.github.io/cm523-final-project/). The URL will be `https://professorkolodziej.github.io/YOUR-REPOSITORY-NAME/`.
+- **Final code demo:**  The URL will be https://github.com/ProfessorKolodziej/final-project-fall-2022-let-s-paint-some-nails.
 - Add any links to wireframes, mockups, your presentation, etc. here in a list so it is easy for you to find later.
+
+Wireframe:
+https://www.figma.com/file/Uf2Yh7d3dKJUVtRtPppLA8/Nail-Salon-Prototype---Maggie-and-Reema-DESIGNED?type=design&node-id=4700%3A2&mode=design&t=lrm21M3ntFAc7YQD-1 
 
 ## How to Use This Repository
 
