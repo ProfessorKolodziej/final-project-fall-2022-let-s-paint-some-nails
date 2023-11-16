@@ -12,8 +12,7 @@ body {
 
   .characters {
 	background-image: url(../images/nail-salons.png);
-	opacity: 0.5;
-	/*working on making this opacity only on the backgrounnd and not the images too*/
+	/*working on making opacity only on the background and not the images too*/
 	 display: grid;
   }
 
