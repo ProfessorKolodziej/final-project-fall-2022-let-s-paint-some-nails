@@ -1,9 +1,6 @@
 /* main */
 /* use this section for styles that will stay the same across all screen sizes */
 
-body {
-	background-image: url(../images/nail-salons.png);
-  }
 
   .arrow {
 	max-width: 3%;
@@ -68,14 +65,32 @@ body {
 
   @media only screen and (min-width: 320px) { /* mobile phone portrait view */
 
+	html {
+	background-position: center;
+	background-image: url(../images/salon-1125x2436.png);
+	}
+
+
 	 }  /* DON'T DELETE */
 
 
   @media only screen and (min-width: 768px) { /* tablet portrait view */
 
+	html {
+		background-position: center;
+		background-image: url(../images/salon-800x1280.png);
+		}
+
+
 	}  /* DON'T DELETE */
 
   @media only screen and (min-width: 1024px) { /* computer widescreen view */
+
+	html {
+		background-position: center;
+		background-image: url(../images/salon-2048x1536.png);
+		}
+
 
 	 h1 {
 	  font-size: 5em;
