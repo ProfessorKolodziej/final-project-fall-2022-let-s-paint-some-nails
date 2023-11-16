@@ -1,0 +1,128 @@
+/* main */
+/* use this section for styles that will stay the same across all screen sizes */
+
+  h1 {
+  font-family: 'Oooh Baby', cursive;
+  background-color: white;
+	  font-family: 'Oooh Baby', cursive;
+	 border-radius: 10px;
+	 padding: 5px 15px;
+	  text-align: center;
+	  text-decoration: none;
+	 color: black;
+	  cursor: pointer;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+
+  }
+
+  h2 {
+	font-family: 'Just Me Again Down Here', cursive;
+	color: #1E9093;
+	 text-align: center;
+  }
+
+  p {
+	font-family: 'Just Me Again Down Here', cursive;
+	 text-align: center;
+  }
+
+  .footer {
+	background-color: #DB92A1;
+	padding: 5px 5px 5px 5px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+  }
+
+  .welcome {
+	display: grid;
+  }
+
+  .button {
+	 background-color: black;
+	  border: 3px solid #1E9093;
+	  font-family: 'Just Me Again Down Here', cursive;
+	 border-radius: 10px;
+	 padding: 5px 15px;
+	  text-align: center;
+	  text-decoration: none;
+	 color: white;
+	 margin-left: auto;
+	 margin-right: auto;
+  }
+
+  /* end main */
+
+
+  @media only screen and (min-width: 320px) { /* mobile phone portrait view */
+
+	html {
+	background-position: center;
+	background-image: url(../images/salon-1125x2436.png);
+	}
+
+
+	 }  /* DON'T DELETE */
+
+
+  @media only screen and (min-width: 768px) { /* tablet portrait view */
+
+	html {
+		background-position: center;
+		background-image: url(../images/salon-800x1280.png);
+		}
+
+
+	}  /* DON'T DELETE */
+
+  @media only screen and (min-width: 1024px) { /* computer widescreen view */
+
+	html {
+		background-position: center;
+		background-image: url(../images/salon-2048x1536.png);
+		}
+
+
+	 h1 {
+	  font-size: 5em;
+	  grid-row-start: 3;
+	  grid-column-start: 2;
+	  margin-left: auto;
+	  margin-right: auto;
+
+	 }
+
+	 h2 {
+		font-size: 2.2em;
+		grid-row-start: 5;
+		grid-column-start: 2;
+		margin-left: auto;
+		margin-right: auto;
+
+	 }
+
+	 .welcome {
+	  grid-template-columns: repeat(3, 1fr);
+	 }
+
+	 .button {
+	  font-size: 2.2em;
+	  grid-row-start: 5;
+		grid-column-start: 2;
+		margin-top: -20px;
+
+	 }
+
+	 .footer {
+	  margin-top: 300px;
+	  font-size: 1.2em;
+	 }
+
+
+
+
+
+	 }  /* DON'T DELETE */

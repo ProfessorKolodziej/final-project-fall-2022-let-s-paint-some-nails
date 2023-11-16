@@ -2,18 +2,29 @@
 /* use this section for styles that will stay the same across all screen sizes */
 
 
-  .arrow {
+.arrow {
 	max-width: 3%;
   }
 
+  .button {
+	background-color: black;
+	 border: 3px solid #1E9093;
+	 font-family: 'Just Me Again Down Here', cursive;
+	border-radius: 10px;
+	padding: 5px 15px;
+	 text-align: center;
+	 text-decoration: none;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+ }
+
 
   .characters {
-	background-image: url(../images/nail-salons.png);
-	/*working on making opacity only on the background and not the images too*/
 	 display: grid;
+	 background-color: #DB92A1;
+	 /* background-image: url(../images/character-background.png); */
   }
-
-
 
   h1 {
   font-family: 'Oooh Baby', cursive;
@@ -43,32 +54,12 @@
 	 text-align: center;
   }
 
-  .welcome {
-	display: grid;
-  }
 
-  .button {
-	 background-color: black;
-	  border: 3px solid #1E9093;
-	  font-family: 'Just Me Again Down Here', cursive;
-	 border-radius: 10px;
-	 padding: 5px 15px;
-	  text-align: center;
-	  text-decoration: none;
-	 color: white;
-	 margin-left: auto;
-	 margin-right: auto;
-  }
 
   /* end main */
 
 
   @media only screen and (min-width: 320px) { /* mobile phone portrait view */
-
-	html {
-	background-position: center;
-	background-image: url(../images/salon-1125x2436.png);
-	}
 
 
 	 }  /* DON'T DELETE */
@@ -76,62 +67,18 @@
 
   @media only screen and (min-width: 768px) { /* tablet portrait view */
 
-	html {
-		background-position: center;
-		background-image: url(../images/salon-800x1280.png);
-		}
-
 
 	}  /* DON'T DELETE */
 
   @media only screen and (min-width: 1024px) { /* computer widescreen view */
 
-	html {
-		background-position: center;
-		background-image: url(../images/salon-2048x1536.png);
-		}
 
+	.button {
+		font-size: 2.2em;
+		grid-row-start: 3;
+		 grid-column-start: 2;
+		 margin-top: -20px;
 
-	 h1 {
-	  font-size: 5em;
-	  grid-row-start: 2;
-	  grid-column-start: 2;
-	  margin-left: auto;
-	  margin-right: auto;
-
-	 }
-
-	 .welcome {
-	  grid-template-columns: repeat(3, 1fr);
-	 }
-
-	 .button {
-	  font-size: 2.2em;
-	  grid-row-start: 3;
-		grid-column-start: 2;
-		margin-top: -20px;
-
-	 }
-
-	 .footer {
-	  margin-top: 200px;
-	  font-size: 1.2em;
-	 }
-
-	 h1 {
-		font-size: 4em;
-		margin-left: auto;
-		margin-right: auto;
-
-	  }
-
-	  h2 {
-		 font-size: 2.2em;
-	  }
-
-	  p {
-		margin-top: 200px;
-		font-size: 3em;
 	  }
 
 	  .characters {
@@ -197,6 +144,36 @@
 		grid-column-start: 4;
 		grid-column-span: 1;
 	  }
+
+	  .footer {
+		font-size: 1.2em;
+	  }
+
+
+
+	 h1 {
+		font-size: 4em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5px;
+
+	  }
+
+	  h2 {
+		 font-size: 2.2em;
+	  }
+
+	  .name {
+		margin-top: 200px;
+	  }
+
+	  p {
+		font-size: 3em;
+	  }
+
+
+
+
 
 
 
