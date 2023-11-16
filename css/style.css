@@ -1,0 +1,180 @@
+/* main */
+/* use this section for styles that will stay the same across all screen sizes */
+
+
+.arrow {
+	max-width: 3%;
+  }
+
+  .button {
+	background-color: black;
+	 border: 3px solid #1E9093;
+	 font-family: 'Just Me Again Down Here', cursive;
+	border-radius: 10px;
+	padding: 5px 15px;
+	 text-align: center;
+	 text-decoration: none;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+ }
+
+
+  .characters {
+	 display: grid;
+	 background-color: #DB92A1;
+	 /* background-image: url(../images/character-background.png); */
+  }
+
+  h1 {
+  font-family: 'Oooh Baby', cursive;
+  background-color: white;
+	  font-family: 'Oooh Baby', cursive;
+	 border-radius: 10px;
+	 padding: 5px 15px;
+	  text-align: center;
+	  text-decoration: none;
+	 color: black;
+	  cursor: pointer;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+
+  }
+
+  h2 {
+	font-family: 'Just Me Again Down Here', cursive;
+	color: #1E9093;
+	 text-align: center;
+	 margin-top: -20px;
+  }
+
+  p {
+	font-family: 'Just Me Again Down Here', cursive;
+	 text-align: center;
+  }
+
+
+
+  /* end main */
+
+
+  @media only screen and (min-width: 320px) { /* mobile phone portrait view */
+
+
+	 }  /* DON'T DELETE */
+
+
+  @media only screen and (min-width: 768px) { /* tablet portrait view */
+
+
+	}  /* DON'T DELETE */
+
+  @media only screen and (min-width: 1024px) { /* computer widescreen view */
+
+
+	.button {
+		font-size: 2.2em;
+		grid-row-start: 3;
+		 grid-column-start: 2;
+		 margin-top: -20px;
+
+	  }
+
+	  .characters {
+		grid-template-columns: repeat(4, 1fr);
+	  }
+
+	  .character-images {
+	  max-width: 85%;
+	  margin-top: 30px;
+	  margin-left: auto;
+	  margin-right: auto;
+	  }
+
+
+	  .character-justin-image {
+		grid-row-start: 1;
+		grid-column-start: 1;
+		grid-column-span: 1;
+	  }
+
+		 .character-justin-name {
+		margin-top: 150px;
+		 grid-row-start: 1;
+		grid-column-start: 1;
+		grid-column-span: 1;
+	  }
+
+		 .character-reema-image {
+		grid-row-start: 1;
+		grid-column-start: 2;
+		grid-column-span: 1;
+	  }
+
+		 .character-reema-name {
+		margin-top: 150px;
+		 grid-row-start: 1;
+		grid-column-start: 2;
+		grid-column-span: 1;
+	  }
+
+		  .character-maggie-image {
+		grid-row-start: 1;
+		grid-column-start: 3;
+		grid-column-span: 1;
+	  }
+
+		 .character-maggie-name {
+		margin-top: 150px;
+		 grid-row-start: 1;
+		grid-column-start: 3;
+		grid-column-span: 1;
+	  }
+
+			 .character-brandon-image {
+		grid-row-start: 1;
+		grid-column-start: 4;
+		grid-column-span: 1;
+	  }
+
+		 .character-brandon-name {
+		margin-top: 150px;
+		 grid-row-start: 1;
+		grid-column-start: 4;
+		grid-column-span: 1;
+	  }
+
+	  .footer {
+		font-size: 1.2em;
+	  }
+
+
+
+	 h1 {
+		font-size: 4em;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 5px;
+
+	  }
+
+	  h2 {
+		 font-size: 2.2em;
+	  }
+
+	  .name {
+		margin-top: 200px;
+	  }
+
+	  p {
+		font-size: 3em;
+	  }
+
+
+
+
+
+
+
+	 }  /* DON'T DELETE */
