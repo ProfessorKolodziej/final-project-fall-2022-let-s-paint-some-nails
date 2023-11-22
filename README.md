@@ -9,7 +9,7 @@ Users will also get to choose which character’s nails they want to paint: Magg
 ## Project Documentation
 
 - [CM523 Final Project Guidelines &amp; Schedule](https://docs.google.com/document/d/1gvG9_1XYfp5-BVUgCDL9JDaZ3Acm6hHP7lDF3MqXPzY/edit#heading=h.61wsleacz62i)
-- **Final code demo:**  The URL will be https://github.com/ProfessorKolodziej/final-project-fall-2022-let-s-paint-some-nails.
+- **Final code demo:**  The URL will be https://github.com/ProfessorKolodziej/final-project-lets-paint-some-nails.
 - Add any links to wireframes, mockups, your presentation, etc. here in a list so it is easy for you to find later.
 
 Wireframe:
