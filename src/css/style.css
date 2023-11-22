@@ -1,6 +1,24 @@
 /* main */
 /* use this section for styles that will stay the same across all screen sizes */
 
+a:link {
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Just Me Again Down Here', cursive;
+
+	}
+
+a:visited {
+	color: black;
+
+	}
+
+
+a:hover {
+	color: #1E9093;
+
+	}
 
 .arrow {
 	max-width: 3%;
@@ -23,6 +41,7 @@
   .characters {
 	 display: grid;
 	 background-color: #DB92A1;
+	 padding: 10px 10px 10px 10px;
 	 /* background-image: url(../images/character-background.png); */
   }
 
@@ -49,9 +68,22 @@
 	 margin-top: -20px;
   }
 
+  h3 {
+	font-family: 'Oooh Baby', cursive;
+	color: black;
+  }
+
   p {
 	font-family: 'Just Me Again Down Here', cursive;
 	 text-align: center;
+  }
+
+  .paint-page {
+	background-color:#DB92A1;
+  }
+
+  .paint-section {
+	display: grid;
   }
 
 
@@ -72,7 +104,10 @@
 
   @media only screen and (min-width: 1024px) { /* computer widescreen view */
 
+	a {
+		font-size: 3em;
 
+	}
 	.button {
 		font-size: 2.2em;
 		grid-row-start: 3;
@@ -87,7 +122,6 @@
 
 	  .character-images {
 	  max-width: 85%;
-	  margin-top: 30px;
 	  margin-left: auto;
 	  margin-right: auto;
 	  }
@@ -99,12 +133,6 @@
 		grid-column-span: 1;
 	  }
 
-		 .character-justin-name {
-		margin-top: 150px;
-		 grid-row-start: 1;
-		grid-column-start: 1;
-		grid-column-span: 1;
-	  }
 
 		 .character-reema-image {
 		grid-row-start: 1;
@@ -112,12 +140,6 @@
 		grid-column-span: 1;
 	  }
 
-		 .character-reema-name {
-		margin-top: 150px;
-		 grid-row-start: 1;
-		grid-column-start: 2;
-		grid-column-span: 1;
-	  }
 
 		  .character-maggie-image {
 		grid-row-start: 1;
@@ -125,22 +147,9 @@
 		grid-column-span: 1;
 	  }
 
-		 .character-maggie-name {
-		margin-top: 150px;
-		 grid-row-start: 1;
-		grid-column-start: 3;
-		grid-column-span: 1;
-	  }
 
 			 .character-brandon-image {
 		grid-row-start: 1;
-		grid-column-start: 4;
-		grid-column-span: 1;
-	  }
-
-		 .character-brandon-name {
-		margin-top: 150px;
-		 grid-row-start: 1;
 		grid-column-start: 4;
 		grid-column-span: 1;
 	  }
@@ -163,18 +172,33 @@
 		 font-size: 2.2em;
 	  }
 
-	  .name {
-		margin-top: 200px;
+	  h3 {
+		font-size: 4em;
+
 	  }
 
-	  p {
-		font-size: 3em;
+	  .paint-section {
+		grid-template-columns: repeat(2, 1fr);;
 	  }
 
+	  .paint-header {
+		grid-row-start: 1;
+		grid-column-start: 1;
+		column-span: 1;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 150px;
 
 
+	  }
 
+	  .paint-image {
+		grid-row-start: 1;
+		grid-column-start: 2;
+		column-span: 1;
+		max-width: 75%;
 
+	  }
 
 
 	 }  /* DON'T DELETE */
