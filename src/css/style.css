@@ -8,165 +8,168 @@ a:link {
 	text-align: center;
 	font-family: 'Just Me Again Down Here', cursive;
 
-	}
+}
 
 a:visited {
 	color: black;
 
-	}
+}
 
 
 a:hover {
 	color: #1E9093;
 
-	}
+}
 
 
 
-  .button {
+.button {
 	background-color: white;
-	 border: 3px solid #1E9093;
-	 font-family: 'Just Me Again Down Here', cursive;
+	border: 3px solid #1E9093;
+	font-family: 'Just Me Again Down Here', cursive;
 	border-radius: 10px;
 	padding: 5px 15px;
-	 text-align: center;
-	 text-decoration: none;
+	text-align: center;
+	text-decoration: none;
 	color: white;
- }
+}
 
 
-  .characters {
-	 display: grid;
-	 background-color: #DB92A1;
-	 padding: 10px 10px 10px 10px;
-	 /* background-image: url(../images/character-background.png); */
-  }
+.characters {
+	display: grid;
+	background-color: #DB92A1;
+	padding: 10px 10px 10px 10px;
+	/* background-image: url(../images/character-background.png); */
+}
 
-  h1 {
-  font-family: 'Oooh Baby', cursive;
-  background-color: white;
-	  font-family: 'Oooh Baby', cursive;
-	 border-radius: 10px;
-	 padding: 5px 15px;
-	  text-align: center;
-	  text-decoration: none;
-	 color: black;
-	  cursor: pointer;
-	 display: block;
-	 margin-left: auto;
-	 margin-right: auto;
+h1 {
+	font-family: 'Oooh Baby', cursive;
+	background-color: white;
+	font-family: 'Oooh Baby', cursive;
+	border-radius: 10px;
+	padding: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 
-  }
+}
 
-  h2 {
+h2 {
 	font-family: 'Just Me Again Down Here', cursive;
 	color: #1E9093;
-	 text-align: center;
-	 margin-top: -20px;
-  }
+	text-align: center;
+	margin-top: -20px;
+}
 
-  h3 {
+h3 {
 	font-family: 'Oooh Baby', cursive;
 	color: black;
-  }
+}
 
-  p {
+p {
 	font-family: 'Just Me Again Down Here', cursive;
-	 text-align: center;
-  }
+	text-align: center;
+}
 
-  .paint-page {
-	background-color:#DB92A1;
-  }
+.paint-page {
+	background-color: #DB92A1;
+}
 
-  .paint-section {
+.paint-section {
 	display: grid;
-  }
+}
 
 
 
-  /* end main */
+/* end main */
 
 
-  @media only screen and (min-width: 320px) { /* mobile phone portrait view */
+@media only screen and (min-width: 320px) {
+
+	/* mobile phone portrait view */
 	a {
 		font-size: 2em;
 
 	}
 
 	.arrow {
-	margin-left: 10px;
-	max-width: 7%;
-	  }
+		margin-left: 10px;
+		max-width: 7%;
+	}
 
 
 
-	  .characters {
+	.characters {
 		grid-template-columns: repeat(2, 1fr);
-	  }
+	}
 
-	  .character-images {
-	  max-width: 90%;
-	  margin-left: auto;
-	  margin-right: auto;
-	  }
+	.character-images {
+		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 
-	  .character-justin-image {
+	.character-justin-image {
 		grid-row-start: 1;
 		grid-column-start: 1;
 		column-span: 1;
-	  }
+	}
 
 
-		 .character-reema-image {
+	.character-reema-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
 		column-span: 1;
-	  }
+	}
 
 
-		  .character-maggie-image {
+	.character-maggie-image {
 		grid-row-start: 2;
 		grid-column-start: 1;
 		column-span: 1;
-	  }
+	}
 
 
-			 .character-brandon-image {
+	.character-brandon-image {
 		grid-row-start: 2;
 		grid-column-start: 2;
 		column-span: 1;
-	  }
+	}
 
-	  .footer {
+	.footer {
 		font-size: 1.2em;
-	  }
+	}
 
 
 
-	 h1 {
+	h1 {
 		font-size: 4em;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 5px;
 
-	  }
+	}
 
-	  h2 {
-		 font-size: 2.2em;
-	  }
+	h2 {
+		font-size: 2.2em;
+	}
 
-	  h3 {
+	h3 {
 		font-size: 4em;
 
-	  }
+	}
 
-	  .paint-section {
-		grid-template-columns: repeat(2, 1fr);;
-	  }
+	.paint-section {
+		grid-template-columns: repeat(2, 1fr);
+		;
+	}
 
-	  .paint-header {
+	.paint-header {
 		grid-row-start: 1;
 		grid-column-start: 1;
 		column-span: 1;
@@ -175,20 +178,23 @@ a:hover {
 		margin-top: 150px;
 
 
-	  }
+	}
 
-	  .paint-image {
+	.paint-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
 		column-span: 1;
 		max-width: 75%;
 
-	  }
+	}
 
-	 }  /* DON'T DELETE */
+}
+
+/* DON'T DELETE */
 
 
-  @media only screen and (min-width: 768px) { /* tablet portrait view */
+@media only screen and (min-width: 768px) {
+	/* tablet portrait view */
 
 	a {
 		font-size: 3em;
@@ -196,77 +202,78 @@ a:hover {
 	}
 
 	.arrow {
-	margin-left: 10px;
-	max-width: 6%;
-	  }
+		margin-left: 10px;
+		max-width: 6%;
+	}
 
 
-	  .characters {
+	.characters {
 		grid-template-columns: repeat(2, 1fr);
-	  }
+	}
 
-	  .character-images {
-	  max-width: 90%;
-	  margin-left: auto;
-	  margin-right: auto;
-	  }
+	.character-images {
+		max-width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 
-	  .character-justin-image {
+	.character-justin-image {
 		grid-row-start: 1;
 		grid-column-start: 1;
 		column-span: 1;
-	  }
+	}
 
 
-		 .character-reema-image {
+	.character-reema-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
 		column-span: 1;
-	  }
+	}
 
 
-		  .character-maggie-image {
+	.character-maggie-image {
 		grid-row-start: 2;
 		grid-column-start: 1;
 		column-span: 1;
-	  }
+	}
 
 
-			 .character-brandon-image {
+	.character-brandon-image {
 		grid-row-start: 2;
 		grid-column-start: 2;
 		column-span: 1;
-	  }
+	}
 
-	  .footer {
+	.footer {
 		font-size: 1.2em;
-	  }
+	}
 
 
 
-	 h1 {
+	h1 {
 		font-size: 4em;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 5px;
 
-	  }
+	}
 
-	  h2 {
-		 font-size: 2.2em;
-	  }
+	h2 {
+		font-size: 2.2em;
+	}
 
-	  h3 {
+	h3 {
 		font-size: 4em;
 
-	  }
+	}
 
-	  .paint-section {
-		grid-template-columns: repeat(2, 1fr);;
-	  }
+	.paint-section {
+		grid-template-columns: repeat(2, 1fr);
+		;
+	}
 
-	  .paint-header {
+	.paint-header {
 		grid-row-start: 1;
 		grid-column-start: 1;
 		column-span: 1;
@@ -275,20 +282,23 @@ a:hover {
 		margin-top: 150px;
 
 
-	  }
+	}
 
-	  .paint-image {
+	.paint-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
 		column-span: 1;
 		max-width: 75%;
 
-	  }
+	}
 
 
-	}  /* DON'T DELETE */
+}
 
-  @media only screen and (min-width: 1024px) { /* computer widescreen view */
+/* DON'T DELETE */
+
+@media only screen and (min-width: 1024px) {
+	/* computer widescreen view */
 
 	a {
 		font-size: 3em;
@@ -296,77 +306,78 @@ a:hover {
 	}
 
 	.arrow {
-	margin-left: 10px;
-	max-width: 3%;
+		margin-left: 10px;
+		max-width: 3%;
 	}
 
-	  .characters {
+	.characters {
 		grid-template-columns: repeat(4, 1fr);
-	  }
+	}
 
-	  .character-images {
-	  max-width: 85%;
-	  margin-left: auto;
-	  margin-right: auto;
-	  }
+	.character-images {
+		max-width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 
-	  .character-justin-image {
+	.character-justin-image {
 		grid-row-start: 1;
 		grid-column-start: 1;
 		column-span: 1;
-	  }
+	}
 
 
-		 .character-reema-image {
+	.character-reema-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
 		column-span: 1;
-	  }
+	}
 
 
-		  .character-maggie-image {
+	.character-maggie-image {
 		grid-row-start: 1;
 		grid-column-start: 3;
 		column-span: 1;
-	  }
+	}
 
 
-			 .character-brandon-image {
+	.character-brandon-image {
 		grid-row-start: 1;
 		grid-column-start: 4;
 		column-span: 1;
-	  }
+	}
 
 
-	  .footer {
+	.footer {
 		font-size: 1.2em;
-	  }
+	}
 
 
 
-	 h1 {
+	h1 {
 		font-size: 4em;
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 5px;
 
-	  }
+	}
 
-	  h2 {
-		 font-size: 2.2em;
-	  }
+	h2 {
+		font-size: 2.2em;
+	}
 
-	  h3 {
+	h3 {
 		font-size: 4em;
 
-	  }
+	}
 
-	  .paint-section {
-		grid-template-columns: repeat(2, 1fr);;
-	  }
+	.paint-section {
+		grid-template-columns: repeat(2, 1fr);
+		;
+	}
 
-	  .paint-header {
+	.paint-header {
 		grid-row-start: 1;
 		grid-column-start: 1;
 		column-span: 1;
@@ -375,40 +386,53 @@ a:hover {
 		margin-top: 150px;
 
 
-	  }
+	}
 
-	  .paint-justin-image {
+	.paint-justin-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
 		column-span: 1;
 		max-width: 66%;
+		grid-row: span 2;
+	}
 
-	  }
-
-	  .paint-reema-image {
+	.paint-reema-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
 		column-span: 1;
 		max-width: 60%;
+		grid-row: span 2;
 
-	  }
+	}
 
-	  .paint-maggie-image {
+	.paint-maggie-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
 		column-span: 1;
 		max-width: 75%;
+		grid-row: span 2;
+	}
 
-	  }
 
-
-	  .paint-brandon-image {
+	.paint-brandon-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
 		column-span: 1;
 		max-width: 75%;
+		grid-row: span 2;
+	}
 
-	  }
+	.paint-polishes {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-row-start: 2;
+	}
 
+	.bottom-three {
+		position: relative;
+		left: 100px;
+		top: -50px;
+	}
+}
 
-	 }  /* DON'T DELETE */
+/* DON'T DELETE */
