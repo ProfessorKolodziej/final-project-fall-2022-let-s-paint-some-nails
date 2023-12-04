@@ -289,6 +289,8 @@ p {
 		grid-column-start: 2;
 		column-span: 1;
 		max-width: 75%;
+		grid-row: span 2;
+		cursor: url(../images/brush.png), auto;
 
 	}
 
@@ -413,7 +415,6 @@ p {
 		grid-row: span 2;
 	}
 
-
 	.paint-brandon-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
@@ -434,5 +435,6 @@ p {
 		top: -50px;
 	}
 }
+
 
 /* DON'T DELETE */
