@@ -167,7 +167,6 @@ p {
 
 	.paint-section {
 		grid-template-columns: repeat(3, 1fr);
-		;
 	}
 
 	.paint-header {
