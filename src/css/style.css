@@ -21,9 +21,6 @@ a:hover {
 
 }
 
-body {
-	cursor: url(../images/brush.png);
-}
 
 button {
 background: none;
@@ -81,10 +78,6 @@ h3 {
 p {
 	font-family: 'Just Me Again Down Here', cursive;
 	text-align: center;
-}
-
-.paint-page {
-	background-color: #DB92A1;
 }
 
 .paint-section {
@@ -173,7 +166,7 @@ p {
 	}
 
 	.paint-section {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 		;
 	}
 
@@ -181,20 +174,39 @@ p {
 		grid-row-start: 1;
 		grid-column-start: 1;
 		column-span: 1;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 150px;
-
 
 	}
 
 	.paint-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
-		column-span: 1;
-		max-width: 75%;
-
+		column-span: 3;
+		grid-row: span 2;
+		margin-left: 30px;
+		max-width: 50%;
 	}
+
+	.paint-image-nails {
+		height: 100%;
+		object-fit: cover;
+		display: block;
+		margin-left: 50px;
+	}
+
+	.paint-polishes {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-row-start: 1;
+	}
+
+	.bottom-three {
+		position: relative;
+		left: 100px;
+		top: -100px;
+	}
+
+
+
 
 }
 
@@ -277,7 +289,7 @@ p {
 	}
 
 	.paint-section {
-		grid-template-columns: repeat(2, 1fr);
+		grid-template-columns: repeat(3, 1fr);
 		;
 	}
 
@@ -295,10 +307,34 @@ p {
 	.paint-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
-		column-span: 1;
-		max-width: 75%;
+		column-span: 3;
 		grid-row: span 2;
+		margin-left: 30px;
+	}
 
+	.paint-image-nails {
+		height: 100%;
+		object-fit: cover;
+		display: block;
+		margin-left: 50px;
+	}
+
+	.paint-page {
+		background-image: url(../images/paint-800x1280.png);
+		background-position: center;
+		background-size: 100%;
+	}
+
+	.paint-polishes {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-row-start: 2;
+	}
+
+	.bottom-three {
+		position: relative;
+		left: 100px;
+		top: -100px;
 	}
 
 
@@ -317,6 +353,12 @@ p {
 	.arrow {
 		margin-left: 10px;
 		max-width: 3%;
+	}
+
+	.bottom-three {
+		position: relative;
+		left: 100px;
+		top: -100px;
 	}
 
 	.characters {
@@ -360,6 +402,7 @@ p {
 
 	.footer {
 		font-size: 1.2em;
+
 	}
 
 
@@ -397,36 +440,11 @@ p {
 
 	}
 
-	.paint-justin-image {
+	.paint-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
 		column-span: 1;
 		max-width: 66%;
-		grid-row: span 2;
-	}
-
-	.paint-reema-image {
-		grid-row-start: 1;
-		grid-column-start: 2;
-		column-span: 1;
-		max-width: 60%;
-		grid-row: span 2;
-
-	}
-
-	.paint-maggie-image {
-		grid-row-start: 1;
-		grid-column-start: 2;
-		column-span: 1;
-		max-width: 75%;
-		grid-row: span 2;
-	}
-
-	.paint-brandon-image {
-		grid-row-start: 1;
-		grid-column-start: 2;
-		column-span: 1;
-		max-width: 75%;
 		grid-row: span 2;
 	}
 
@@ -438,17 +456,19 @@ p {
 		margin-left: 50px;
 	}
 
+	.paint-page {
+		background-image: url(../images/paint-2048x1536.png);
+		background-position: center;
+		background-size: 100%;
+	}
+
 	.paint-polishes {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-row-start: 2;
 	}
 
-	.bottom-three {
-		position: relative;
-		left: 100px;
-		top: -50px;
-	}
+
 }
 
 
