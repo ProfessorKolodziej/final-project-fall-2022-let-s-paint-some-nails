@@ -177,6 +177,12 @@ p {
 
 	}
 
+	.paint-page {
+		background-image: url(../images/paint-800x1280.png);
+		background-position: center;
+		background-size: 100%;
+	}
+
 	.paint-image {
 		grid-row-start: 1;
 		grid-column-start: 2;
@@ -317,12 +323,6 @@ p {
 		object-fit: cover;
 		display: block;
 		margin-left: 50px;
-	}
-
-	.paint-page {
-		background-image: url(../images/paint-800x1280.png);
-		background-position: center;
-		background-size: 100%;
 	}
 
 	.paint-polishes {
