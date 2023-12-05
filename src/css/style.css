@@ -196,13 +196,13 @@ p {
 	.paint-polishes {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		grid-row-start: 1;
+		grid-row-start: 2;
 	}
 
 	.bottom-three {
 		position: relative;
-		left: 100px;
-		top: -100px;
+		left: 75px;
+		top: -15px;
 	}
 
 
@@ -333,8 +333,8 @@ p {
 
 	.bottom-three {
 		position: relative;
-		left: 100px;
-		top: -100px;
+		left: 75px;
+		top: -15px;
 	}
 
 
@@ -353,12 +353,6 @@ p {
 	.arrow {
 		margin-left: 10px;
 		max-width: 3%;
-	}
-
-	.bottom-three {
-		position: relative;
-		left: 100px;
-		top: -100px;
 	}
 
 	.characters {
@@ -466,6 +460,12 @@ p {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
 		grid-row-start: 2;
+	}
+
+	.bottom-three {
+		position: relative;
+		left: 75px;
+		top: -15px;
 	}
 
 
